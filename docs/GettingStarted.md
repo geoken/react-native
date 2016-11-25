@@ -118,19 +118,25 @@ choco install python2
 
 Node.js comes with npm, which lets you install the React Native command line interface.
 
+Run the following command in a Terminal:
+```
+npm install -g react-native-cli
+```
+
 <block class="windows linux android" />
 
 ### The React Native CLI
 
 Node.js comes with npm, which lets you install the React Native command line interface.
 
-<block class="mac ios android" />
-
 Run the following command in a Terminal:
 
 ```
 npm install -g react-native-cli
 ```
+
+<block class="mac ios android" />
+
 
 > If you get a *permission error*, try using sudo: `sudo npm install -g react-native-cli`.
 
